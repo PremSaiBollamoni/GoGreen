@@ -1,0 +1,12 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="facetBg" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M0 36 L36 0 L72 36 L36 72 Z" fill="none" stroke="#123b26" stroke-width="1" opacity="0.6"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="260" fill="#e8ebe1" />
+  <rect width="1200" height="260" fill="url(#facetBg)" />
+  <text x="600" y="100" text-anchor="middle" font-family="Courier New, monospace" font-size="13" letter-spacing="3" fill="#2f6b44">GET IN TOUCH</text>
+  <text x="600" y="150" text-anchor="middle" font-family="Verdana, Geneva, sans-serif" font-weight="700" font-size="30" fill="#1a1d1b">Fork it, run it, or just admire the dome.</text>
+  <text x="600" y="200" text-anchor="middle" font-family="Verdana, Geneva, sans-serif" font-size="15" fill="#1a1d1b99">info@gogreenagritech.solutions &#183; Vizianagaram, Andhra Pradesh, India</text>
+</svg>
