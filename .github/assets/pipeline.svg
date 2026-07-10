@@ -1,0 +1,54 @@
+<svg width="1200" height="130" viewBox="0 0 1200 130" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="130" fill="#0b1f14" />
+  <g transform="translate(20 45)">
+    
+  <g transform="translate(0 0)">
+    <line x1="0" y1="0" x2="126" y2="0" stroke="#123b26" stroke-width="2" />
+    <text x="0" y="34" font-family="Courier New, monospace" font-size="13" fill="#b99a5b">01</text>
+    <text x="0" y="60" font-family="Verdana, Geneva, sans-serif" font-size="17" font-weight="700" fill="#f5f7f3">Home</text>
+    <path d="M 126 -1 l 10 -6 l 0 12 z" fill="#6fbe63" />
+  </g>
+  <g transform="translate(150 0)">
+    <line x1="0" y1="0" x2="126" y2="0" stroke="#123b26" stroke-width="2" />
+    <text x="0" y="34" font-family="Courier New, monospace" font-size="13" fill="#b99a5b">02</text>
+    <text x="0" y="60" font-family="Verdana, Geneva, sans-serif" font-size="17" font-weight="700" fill="#f5f7f3">About</text>
+    <path d="M 126 -1 l 10 -6 l 0 12 z" fill="#6fbe63" />
+  </g>
+  <g transform="translate(300 0)">
+    <line x1="0" y1="0" x2="126" y2="0" stroke="#123b26" stroke-width="2" />
+    <text x="0" y="34" font-family="Courier New, monospace" font-size="13" fill="#b99a5b">03</text>
+    <text x="0" y="60" font-family="Verdana, Geneva, sans-serif" font-size="17" font-weight="700" fill="#f5f7f3">Technology</text>
+    <path d="M 126 -1 l 10 -6 l 0 12 z" fill="#6fbe63" />
+  </g>
+  <g transform="translate(450 0)">
+    <line x1="0" y1="0" x2="126" y2="0" stroke="#123b26" stroke-width="2" />
+    <text x="0" y="34" font-family="Courier New, monospace" font-size="13" fill="#b99a5b">04</text>
+    <text x="0" y="60" font-family="Verdana, Geneva, sans-serif" font-size="17" font-weight="700" fill="#f5f7f3">Products</text>
+    <path d="M 126 -1 l 10 -6 l 0 12 z" fill="#6fbe63" />
+  </g>
+  <g transform="translate(600 0)">
+    <line x1="0" y1="0" x2="126" y2="0" stroke="#123b26" stroke-width="2" />
+    <text x="0" y="34" font-family="Courier New, monospace" font-size="13" fill="#b99a5b">05</text>
+    <text x="0" y="60" font-family="Verdana, Geneva, sans-serif" font-size="17" font-weight="700" fill="#f5f7f3">Manufacturing</text>
+    <path d="M 126 -1 l 10 -6 l 0 12 z" fill="#6fbe63" />
+  </g>
+  <g transform="translate(750 0)">
+    <line x1="0" y1="0" x2="126" y2="0" stroke="#123b26" stroke-width="2" />
+    <text x="0" y="34" font-family="Courier New, monospace" font-size="13" fill="#b99a5b">06</text>
+    <text x="0" y="60" font-family="Verdana, Geneva, sans-serif" font-size="17" font-weight="700" fill="#f5f7f3">Exports</text>
+    <path d="M 126 -1 l 10 -6 l 0 12 z" fill="#6fbe63" />
+  </g>
+  <g transform="translate(900 0)">
+    <line x1="0" y1="0" x2="126" y2="0" stroke="#123b26" stroke-width="2" />
+    <text x="0" y="34" font-family="Courier New, monospace" font-size="13" fill="#b99a5b">07</text>
+    <text x="0" y="60" font-family="Verdana, Geneva, sans-serif" font-size="17" font-weight="700" fill="#f5f7f3">Leadership</text>
+    <path d="M 126 -1 l 10 -6 l 0 12 z" fill="#6fbe63" />
+  </g>
+  <g transform="translate(1050 0)">
+    <line x1="0" y1="0" x2="126" y2="0" stroke="#123b26" stroke-width="2" />
+    <text x="0" y="34" font-family="Courier New, monospace" font-size="13" fill="#b99a5b">08</text>
+    <text x="0" y="60" font-family="Verdana, Geneva, sans-serif" font-size="17" font-weight="700" fill="#f5f7f3">Contact</text>
+    
+  </g>
+  </g>
+</svg>
