@@ -1,0 +1,17 @@
+/**
+ * GoGreen Agritech design tokens.
+ * Palette rooted in the dome's engineering register: forest greens for
+ * living systems, graphite/mist for blueprint neutrality, gold used only
+ * as a rare premium mark (badges, dividers) — never a base color.
+ */
+:root {
+  /* Color tokens live in index.css `@theme` — the single source Tailwind
+     compiles utilities from. Only non-color tokens belong here. */
+  --color-graphite-60: #1a1d1b99;
+
+  --font-display: 'Space Grotesk', 'General Sans', system-ui, sans-serif;
+  --font-body: 'IBM Plex Sans', 'Inter', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', monospace;
+
+  --ease-blueprint: cubic-bezier(0.22, 1, 0.36, 1);
+}
