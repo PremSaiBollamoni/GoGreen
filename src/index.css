@@ -1,0 +1,83 @@
+@import 'tailwindcss';
+@import '@fontsource/space-grotesk/500.css';
+@import '@fontsource/space-grotesk/600.css';
+@import '@fontsource/space-grotesk/700.css';
+@import '@fontsource/ibm-plex-sans/400.css';
+@import '@fontsource/ibm-plex-sans/500.css';
+@import '@fontsource/ibm-plex-sans/600.css';
+@import '@fontsource/ibm-plex-mono/400.css';
+@import '@fontsource/ibm-plex-mono/500.css';
+
+@import './styles/globals/tokens.css';
+@import './styles/globals/blueprint.css';
+
+@theme {
+  --color-deepest: #0b1f14;
+  --color-forest: #123b26;
+  --color-canopy: #2f6b44;
+  --color-sprout: #6fbe63;
+  --color-graphite: #1a1d1b;
+  --color-mist: #e8ebe1;
+  --color-mist-dim: #dde2d4;
+  --color-paper: #f0efe7;
+  --color-gold: #b99a5b;
+  --color-line: #cbd1c1;
+  --color-line-dark: #2a3830;
+
+  --font-display: 'Space Grotesk', 'General Sans', system-ui, sans-serif;
+  --font-body: 'IBM Plex Sans', 'Inter', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  body {
+    margin: 0;
+    background: var(--color-mist);
+    color: var(--color-graphite);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  ::selection {
+    background: var(--color-sprout);
+    color: var(--color-deepest);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-sprout);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
