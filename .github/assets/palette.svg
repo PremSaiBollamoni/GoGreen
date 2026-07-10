@@ -1,0 +1,44 @@
+<svg width="1274" height="110" viewBox="0 0 1274 110" xmlns="http://www.w3.org/2000/svg">
+  
+    <g transform="translate(0 0)">
+      <rect width="170" height="110" rx="6" fill="#0b1f14" />
+      <text x="14" y="68" font-family="Courier New, monospace" font-size="14" font-weight="700" fill="#f5f7f3">deepest</text>
+      <text x="14" y="90" font-family="Courier New, monospace" font-size="12" fill="#f5f7f3" opacity="0.75">#0b1f14</text>
+    </g>
+
+    <g transform="translate(184 0)">
+      <rect width="170" height="110" rx="6" fill="#123b26" />
+      <text x="14" y="68" font-family="Courier New, monospace" font-size="14" font-weight="700" fill="#f5f7f3">forest</text>
+      <text x="14" y="90" font-family="Courier New, monospace" font-size="12" fill="#f5f7f3" opacity="0.75">#123b26</text>
+    </g>
+
+    <g transform="translate(368 0)">
+      <rect width="170" height="110" rx="6" fill="#2f6b44" />
+      <text x="14" y="68" font-family="Courier New, monospace" font-size="14" font-weight="700" fill="#f5f7f3">canopy</text>
+      <text x="14" y="90" font-family="Courier New, monospace" font-size="12" fill="#f5f7f3" opacity="0.75">#2f6b44</text>
+    </g>
+
+    <g transform="translate(552 0)">
+      <rect width="170" height="110" rx="6" fill="#6fbe63" />
+      <text x="14" y="68" font-family="Courier New, monospace" font-size="14" font-weight="700" fill="#0b1f14">sprout</text>
+      <text x="14" y="90" font-family="Courier New, monospace" font-size="12" fill="#0b1f14" opacity="0.75">#6fbe63</text>
+    </g>
+
+    <g transform="translate(736 0)">
+      <rect width="170" height="110" rx="6" fill="#e8ebe1" />
+      <text x="14" y="68" font-family="Courier New, monospace" font-size="14" font-weight="700" fill="#1a1d1b">mist</text>
+      <text x="14" y="90" font-family="Courier New, monospace" font-size="12" fill="#1a1d1b" opacity="0.75">#e8ebe1</text>
+    </g>
+
+    <g transform="translate(920 0)">
+      <rect width="170" height="110" rx="6" fill="#f0efe7" />
+      <text x="14" y="68" font-family="Courier New, monospace" font-size="14" font-weight="700" fill="#1a1d1b">paper</text>
+      <text x="14" y="90" font-family="Courier New, monospace" font-size="12" fill="#1a1d1b" opacity="0.75">#f0efe7</text>
+    </g>
+
+    <g transform="translate(1104 0)">
+      <rect width="170" height="110" rx="6" fill="#b99a5b" />
+      <text x="14" y="68" font-family="Courier New, monospace" font-size="14" font-weight="700" fill="#0b1f14">gold</text>
+      <text x="14" y="90" font-family="Courier New, monospace" font-size="12" fill="#0b1f14" opacity="0.75">#b99a5b</text>
+    </g>
+</svg>
