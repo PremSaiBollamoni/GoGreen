@@ -1,0 +1,24 @@
+<svg width="1200" height="130" viewBox="0 0 1200 130" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="130" fill="#0b1f14" />
+  <g transform="translate(28 8)">
+  <g transform="translate(0 0)">
+    <line x1="0" y1="30" x2="260" y2="30" stroke="#f5f7f31a" stroke-width="1" />
+    <text x="0" y="78" font-family="Courier New, monospace" font-size="34" font-weight="700" fill="#f5f7f3">10+</text>
+    <text x="0" y="104" font-family="Verdana, Geneva, sans-serif" font-size="13" fill="#e8ebe1cc">Export Destinations</text>
+  </g>
+  <g transform="translate(300 0)">
+    <line x1="0" y1="30" x2="260" y2="30" stroke="#f5f7f31a" stroke-width="1" />
+    <text x="0" y="78" font-family="Courier New, monospace" font-size="34" font-weight="700" fill="#f5f7f3">3×</text>
+    <text x="0" y="104" font-family="Verdana, Geneva, sans-serif" font-size="13" fill="#e8ebe1cc">Vine Growth Rate</text>
+  </g>
+  <g transform="translate(600 0)">
+    <line x1="0" y1="30" x2="260" y2="30" stroke="#f5f7f31a" stroke-width="1" />
+    <text x="0" y="78" font-family="Courier New, monospace" font-size="34" font-weight="700" fill="#f5f7f3">350 m³</text>
+    <text x="0" y="104" font-family="Verdana, Geneva, sans-serif" font-size="13" fill="#e8ebe1cc">Dome Volume</text>
+  </g>
+  <g transform="translate(900 0)">
+    <line x1="0" y1="30" x2="260" y2="30" stroke="#f5f7f31a" stroke-width="1" />
+    <text x="0" y="78" font-family="Courier New, monospace" font-size="34" font-weight="700" fill="#f5f7f3">126</text>
+    <text x="0" y="104" font-family="Verdana, Geneva, sans-serif" font-size="13" fill="#e8ebe1cc">Facets in the Hero Dome</text>
+  </g></g>
+</svg>
