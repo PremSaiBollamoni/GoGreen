@@ -4,7 +4,7 @@ import { Reveal } from '@/components/animations/Reveal';
 import { Container } from '@/components/ui/Container';
 import { Eyebrow } from '@/components/ui/Eyebrow';
 import { SectionNumeral } from '@/components/ui/SectionNumeral';
-import { LEADERSHIP } from '@/constants/leadership';
+import { TEAM_PREVIEW } from '@/constants/team';
 
 function initials(name: string) {
   return name
@@ -14,21 +14,21 @@ function initials(name: string) {
     .join('');
 }
 
-export function LeadershipPreview() {
+export function TeamPreview() {
   return (
     <section className="relative flex min-h-screen flex-col justify-center overflow-hidden border-t border-line-dark bg-deepest py-28 text-mist">
       <SectionNumeral value="07" tone="dark" />
       <Container className="relative">
         <div className="flex flex-wrap items-end justify-between gap-6">
           <Reveal>
-            <Eyebrow index="07">Leadership</Eyebrow>
+            <Eyebrow index="07">Our Team</Eyebrow>
             <h2 className="mt-5 max-w-xl font-display text-4xl font-medium leading-tight tracking-tight md:text-5xl">
               Development-sector depth, engineering discipline.
             </h2>
           </Reveal>
           <Reveal delay={0.1}>
             <Link
-              to="/leadership"
+              to="/our-team"
               className="flex items-center gap-1.5 font-mono text-xs uppercase tracking-[0.14em] text-sprout hover:text-mist"
             >
               Full profiles <ArrowUpRight size={14} />
@@ -37,7 +37,7 @@ export function LeadershipPreview() {
         </div>
 
         <div className="mt-16 grid gap-6 md:grid-cols-3">
-          {LEADERSHIP.map((person, i) => (
+          {TEAM_PREVIEW.map((person, i) => (
             <Reveal
               key={person.name}
               delay={i * 0.08}

@@ -5,7 +5,8 @@ import { ProductsPreview } from './components/ProductsPreview';
 import { ManufacturingPreview } from './components/ManufacturingPreview';
 import { EcosystemSection } from './components/EcosystemSection';
 import { ExportsPreview } from './components/ExportsPreview';
-import { LeadershipPreview } from './components/LeadershipPreview';
+import { TeamPreview } from './components/TeamPreview';
+import { ProjectGallery } from './components/ProjectGallery';
 import { ContactCTA } from './components/ContactCTA';
 
 export function HomePage() {
@@ -18,7 +19,8 @@ export function HomePage() {
       <ManufacturingPreview />
       <EcosystemSection />
       <ExportsPreview />
-      <LeadershipPreview />
+      <TeamPreview />
+      <ProjectGallery />
       <ContactCTA />
     </>
   );
