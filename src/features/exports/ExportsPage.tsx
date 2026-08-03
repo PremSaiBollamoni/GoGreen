@@ -10,7 +10,7 @@ export function ExportsPage() {
         eyebrowIndex="EXPORTS"
         eyebrow="Global Exports"
         title="Engineered in Vizianagaram, growing on five continents."
-        subtitle="A standing buyback agreement with Advent Group, Australia, moves every dome, trellis and cover we fabricate into ten-plus destination markets."
+        subtitle="An International MoU with Advent Group, Australia, moves every dome, trellis and cover we fabricate into ten-plus destination markets under a standing buyback agreement."
       />
       <MarketsGrid />
       <PartnerSection />

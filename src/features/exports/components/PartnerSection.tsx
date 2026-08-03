@@ -2,9 +2,11 @@ import { Reveal } from '@/components/animations/Reveal';
 import { Container } from '@/components/ui/Container';
 import { Eyebrow } from '@/components/ui/Eyebrow';
 import { SectionNumeral } from '@/components/ui/SectionNumeral';
+import { StatBlock } from '@/components/ui/StatBlock';
 
 const AGREEMENT_TERMS = [
   { label: 'Partner', value: 'Advent Group, Australia' },
+  { label: 'Led by', value: 'David Soo, Founder' },
   { label: 'Coverage', value: 'Domes, trellises & dome covers' },
   { label: 'Arrangement', value: 'Standing buyback agreement' },
   { label: 'Supply', value: 'Specialty tensile-grade raw steel' },
@@ -29,9 +31,25 @@ export function PartnerSection() {
             <p className="mt-6 max-w-md leading-relaxed text-mist/60">
               Advent Group supplies the tensile-grade steel our designs
               require — material not available in India — and buys back
-              every finished dome, trellis and cover we fabricate under a
-              standing agreement.
+              every finished dome, trellis and cover we fabricate, under a
+              formal International MoU with GoGreen Agritech Solutions
+              International.
             </p>
+
+            <div className="mt-9 grid grid-cols-2 gap-x-8 gap-y-6">
+              <StatBlock
+                value="AU$3M"
+                label="Government R&D Funding"
+                detail="CRC-P Round 16, Australian Minister for Industry & Science"
+                tone="dark"
+              />
+              <StatBlock
+                value="FaBA"
+                label="Accelerator-Backed"
+                detail="Food & Beverage Accelerator, University of Queensland"
+                tone="dark"
+              />
+            </div>
           </Reveal>
           <Reveal delay={0.1}>
             <dl className="divide-y divide-mist/10 border-t border-mist/10">
