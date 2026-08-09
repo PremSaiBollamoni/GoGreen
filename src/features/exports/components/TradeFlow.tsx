@@ -9,7 +9,7 @@ const FLOW = [
     icon: ArrowDownToLine,
     tag: 'IN',
     title: 'Import',
-    detail: 'Specialty steel, aluminium and agri-plastic sourced from Advent Group, Australia.',
+    detail: 'Galvanized steel tubes, anodized aluminium tubing and reinforced dome-cover sheet, sourced from Advent Group, Australia.',
   },
   {
     icon: Factory,

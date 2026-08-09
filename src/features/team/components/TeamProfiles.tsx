@@ -39,11 +39,19 @@ export function TeamProfiles() {
               <div className="mt-12 grid gap-x-10 gap-y-12 md:grid-cols-2">
                 {group.members.map((person, j) => (
                   <Reveal key={person.name} delay={0.05 + (j % 2) * 0.06}>
-                    <div
-                      className={`flex h-14 w-14 items-center justify-center rounded-full border font-display text-lg ${dark ? 'border-sprout/40 text-sprout' : 'border-forest/30 text-forest'}`}
-                    >
-                      {initials(person.name)}
-                    </div>
+                    {person.photo ? (
+                      <img
+                        src={person.photo}
+                        alt={person.name}
+                        className={`h-14 w-14 rounded-full border object-cover ${dark ? 'border-sprout/40' : 'border-forest/30'}`}
+                      />
+                    ) : (
+                      <div
+                        className={`flex h-14 w-14 items-center justify-center rounded-full border font-display text-lg ${dark ? 'border-sprout/40 text-sprout' : 'border-forest/30 text-forest'}`}
+                      >
+                        {initials(person.name)}
+                      </div>
+                    )}
                     <p className="mt-5 font-display text-xl font-medium">{person.name}</p>
                     <p
                       className={`mt-1 font-mono text-xs uppercase tracking-[0.1em] ${dark ? 'text-sprout' : 'text-canopy'}`}

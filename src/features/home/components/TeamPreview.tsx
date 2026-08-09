@@ -43,9 +43,17 @@ export function TeamPreview() {
               delay={i * 0.08}
               className="border-t border-mist/15 pt-6 md:min-h-[300px]"
             >
-              <div className="flex h-14 w-14 items-center justify-center rounded-full border border-sprout/40 font-display text-lg text-sprout">
-                {initials(person.name)}
-              </div>
+              {person.photo ? (
+                <img
+                  src={person.photo}
+                  alt={person.name}
+                  className="h-14 w-14 rounded-full border border-sprout/40 object-cover"
+                />
+              ) : (
+                <div className="flex h-14 w-14 items-center justify-center rounded-full border border-sprout/40 font-display text-lg text-sprout">
+                  {initials(person.name)}
+                </div>
+              )}
               <p className="mt-6 font-display text-lg font-medium">{person.name}</p>
               <p className="mt-1 font-mono text-xs uppercase tracking-[0.1em] text-sprout">
                 {person.role}
