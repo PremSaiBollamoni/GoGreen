@@ -15,11 +15,11 @@ const ICONS: Record<string, LucideIcon> = {
 export function ProductsPreview() {
   return (
     <section className="relative flex min-h-screen flex-col justify-center overflow-hidden border-t border-line-dark bg-deepest py-28 text-mist">
-      <SectionNumeral value="03" tone="dark" />
+      <SectionNumeral value="04" tone="dark" />
       <Container className="relative">
         <div className="flex flex-wrap items-end justify-between gap-6">
           <Reveal>
-            <Eyebrow index="03">Products</Eyebrow>
+            <Eyebrow index="04">Products</Eyebrow>
             <h2 className="mt-5 max-w-xl font-display text-4xl font-medium leading-tight tracking-tight md:text-5xl">
               Three systems. One growing environment.
             </h2>

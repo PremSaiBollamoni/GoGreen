@@ -10,11 +10,11 @@ import { EXPORT_MARKETS } from '@/constants/exportMarkets';
 export function ExportsPreview() {
   return (
     <section className="relative flex min-h-screen flex-col justify-center overflow-hidden border-t border-line bg-paper py-28">
-      <SectionNumeral value="06" />
+      <SectionNumeral value="07" />
       <Container className="relative">
         <div className="grid gap-14 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:gap-20">
           <Reveal>
-            <Eyebrow index="06">Global Exports</Eyebrow>
+            <Eyebrow index="07">Global Exports</Eyebrow>
             <h2 className="mt-5 font-display text-4xl font-medium leading-tight tracking-tight md:text-5xl">
               A buyback agreement with Advent Group, Australia.
             </h2>

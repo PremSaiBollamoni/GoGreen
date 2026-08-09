@@ -7,7 +7,7 @@ import { COMPANY_FACTS } from '@/constants/companyFacts';
 export function WhoWeAre() {
   return (
     <section className="relative flex min-h-screen items-center overflow-hidden border-t border-line bg-paper py-28">
-      <SectionNumeral value="01" />
+      <SectionNumeral value="02" />
       <div
         className="facet-field pointer-events-none absolute inset-0"
         style={{ color: 'var(--color-line)' }}
@@ -15,7 +15,7 @@ export function WhoWeAre() {
       />
       <Container className="relative">
         <Reveal>
-          <Eyebrow index="01">Who We Are</Eyebrow>
+          <Eyebrow index="02">Who We Are</Eyebrow>
         </Reveal>
 
         <div className="mt-8 grid gap-12 lg:grid-cols-[1.3fr_1fr] lg:gap-20">

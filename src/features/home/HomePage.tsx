@@ -13,6 +13,7 @@ export function HomePage() {
   return (
     <>
       <Hero />
+      <ProjectGallery />
       <WhoWeAre />
       <TechnologySection />
       <ProductsPreview />
@@ -20,7 +21,6 @@ export function HomePage() {
       <EcosystemSection />
       <ExportsPreview />
       <TeamPreview />
-      <ProjectGallery />
       <ContactCTA />
     </>
   );

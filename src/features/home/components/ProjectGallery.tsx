@@ -47,10 +47,10 @@ export function ProjectGallery() {
 
   return (
     <section className="relative flex min-h-screen flex-col justify-center overflow-hidden border-t border-line-dark bg-deepest py-28 text-mist">
-      <SectionNumeral value="08" tone="dark" />
+      <SectionNumeral value="01" tone="dark" />
       <Container className="relative">
         <Reveal>
-          <Eyebrow index="08">From the Field</Eyebrow>
+          <Eyebrow index="01">From the Field</Eyebrow>
           <h2 className="mt-5 max-w-xl font-display text-4xl font-medium leading-tight tracking-tight md:text-5xl">
             Built here, deployed everywhere.
           </h2>

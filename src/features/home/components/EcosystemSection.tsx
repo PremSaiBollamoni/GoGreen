@@ -16,11 +16,11 @@ const ICONS: Record<string, LucideIcon> = {
 export function EcosystemSection() {
   return (
     <section className="relative flex min-h-screen flex-col justify-center overflow-hidden border-t border-line bg-mist py-28">
-      <SectionNumeral value="05" />
+      <SectionNumeral value="06" />
       <Container className="relative">
         <div className="grid gap-8 lg:grid-cols-[1fr_1fr] lg:items-end">
           <Reveal>
-            <Eyebrow index="05">University Ecosystem</Eyebrow>
+            <Eyebrow index="06">University Ecosystem</Eyebrow>
             <h2 className="mt-5 max-w-2xl font-display text-4xl font-medium leading-tight tracking-tight md:text-5xl">
               Built inside a twenty-year record of applied development work.
             </h2>

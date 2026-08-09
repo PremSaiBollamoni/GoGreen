@@ -17,11 +17,11 @@ function initials(name: string) {
 export function TeamPreview() {
   return (
     <section className="relative flex min-h-screen flex-col justify-center overflow-hidden border-t border-line-dark bg-deepest py-28 text-mist">
-      <SectionNumeral value="07" tone="dark" />
+      <SectionNumeral value="08" tone="dark" />
       <Container className="relative">
         <div className="flex flex-wrap items-end justify-between gap-6">
           <Reveal>
-            <Eyebrow index="07">Our Team</Eyebrow>
+            <Eyebrow index="08">Our Team</Eyebrow>
             <h2 className="mt-5 max-w-xl font-display text-4xl font-medium leading-tight tracking-tight md:text-5xl">
               Development-sector depth, engineering discipline.
             </h2>

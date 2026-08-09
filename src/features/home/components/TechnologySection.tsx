@@ -15,11 +15,11 @@ const ICONS: Record<string, LucideIcon> = {
 export function TechnologySection() {
   return (
     <section className="relative flex min-h-screen flex-col justify-center overflow-hidden border-t border-line bg-mist py-28">
-      <SectionNumeral value="02" />
+      <SectionNumeral value="03" />
       <Container className="relative">
         <div className="grid gap-10 lg:grid-cols-[1fr_1fr] lg:items-end">
           <Reveal>
-            <Eyebrow index="02">Technology</Eyebrow>
+            <Eyebrow index="03">Technology</Eyebrow>
             <h2 className="mt-5 max-w-xl font-display text-4xl font-medium leading-tight tracking-tight md:text-5xl">
               Controlled Environment Agriculture, engineered as a system.
             </h2>

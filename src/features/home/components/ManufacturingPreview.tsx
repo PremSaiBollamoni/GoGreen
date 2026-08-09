@@ -38,11 +38,11 @@ const ICONS: Record<string, LucideIcon> = {
 export function ManufacturingPreview() {
   return (
     <section className="relative flex min-h-screen flex-col justify-center overflow-hidden border-t border-line bg-paper py-28">
-      <SectionNumeral value="04" />
+      <SectionNumeral value="05" />
       <Container className="relative">
         <div className="grid gap-10 lg:grid-cols-[1fr_0.7fr] lg:items-end">
           <Reveal>
-            <Eyebrow index="04">Manufacturing</Eyebrow>
+            <Eyebrow index="05">Manufacturing</Eyebrow>
             <h2 className="mt-5 max-w-xl font-display text-4xl font-medium leading-tight tracking-tight md:text-5xl">
               Eleven stages, from raw steel to dispatch crate.
             </h2>
