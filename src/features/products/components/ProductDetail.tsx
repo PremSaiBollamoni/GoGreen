@@ -38,9 +38,18 @@ export function ProductDetail({ product, index }: ProductDetailProps) {
         <div className="grid gap-14 lg:grid-cols-[0.6fr_1fr] lg:gap-20">
           <Reveal>
             <div
-              className={`flex h-24 w-24 items-center justify-center border ${dark ? 'border-mist/20' : 'border-line'}`}
+              className={`relative aspect-[4/3] w-full max-w-sm overflow-hidden rounded-sm border ${dark ? 'border-mist/15' : 'border-line'}`}
             >
-              <Icon size={40} strokeWidth={1.25} className={dark ? 'text-sprout' : 'text-canopy'} />
+              <img
+                src={product.image}
+                alt={product.name}
+                className="h-full w-full object-cover"
+              />
+              <div
+                className={`absolute left-4 top-4 flex h-12 w-12 items-center justify-center rounded-full border backdrop-blur-sm ${dark ? 'border-mist/25 bg-deepest/60' : 'border-line bg-paper/80'}`}
+              >
+                <Icon size={22} strokeWidth={1.5} className={dark ? 'text-sprout' : 'text-canopy'} />
+              </div>
             </div>
             <p className="mt-7 font-mono text-xs tracking-[0.14em] text-gold">{product.code}</p>
             <h2 className="mt-3 font-display text-4xl font-medium leading-tight tracking-tight md:text-5xl">
