@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Reveal } from '@/components/animations/Reveal';
@@ -19,16 +19,31 @@ const SLIDES = [
   },
 ] as const;
 
+const slideVariants = {
+  enter: (dir: number) => ({ x: dir >= 0 ? '100%' : '-100%' }),
+  center: { x: 0 },
+  exit: (dir: number) => ({ x: dir >= 0 ? '-100%' : '100%' }),
+};
+
 export function ProjectGallery() {
-  const [index, setIndex] = useState(0);
+  const [[index, direction], setSlide] = useState<[number, number]>([0, 0]);
 
   function next() {
-    setIndex((i) => (i + 1) % SLIDES.length);
+    setSlide(([i]) => [(i + 1) % SLIDES.length, 1]);
   }
 
   function prev() {
-    setIndex((i) => (i - 1 + SLIDES.length) % SLIDES.length);
+    setSlide(([i]) => [(i - 1 + SLIDES.length) % SLIDES.length, -1]);
   }
+
+  function goTo(i: number) {
+    setSlide(([current]) => [i, i > current ? 1 : -1]);
+  }
+
+  useEffect(() => {
+    const id = setInterval(next, 5000);
+    return () => clearInterval(id);
+  }, []);
 
   return (
     <section className="relative flex min-h-screen flex-col justify-center overflow-hidden border-t border-line-dark bg-deepest py-28 text-mist">
@@ -43,14 +58,16 @@ export function ProjectGallery() {
 
         <Reveal delay={0.1} className="mt-14">
           <div className="relative aspect-[16/9] w-full overflow-hidden rounded-sm border border-mist/10 bg-forest/20 sm:aspect-[2/1]">
-            <AnimatePresence mode="wait">
+            <AnimatePresence initial={false} custom={direction}>
               <motion.img
                 key={index}
                 src={SLIDES[index].image}
                 alt={SLIDES[index].caption}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
+                custom={direction}
+                variants={slideVariants}
+                initial="enter"
+                animate="center"
+                exit="exit"
                 transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
                 className="absolute inset-0 h-full w-full object-cover"
               />
@@ -85,7 +102,7 @@ export function ProjectGallery() {
               <button
                 key={slide.image}
                 type="button"
-                onClick={() => setIndex(i)}
+                onClick={() => goTo(i)}
                 aria-label={`Go to slide ${i + 1}`}
                 className={`h-1.5 rounded-full transition-all ${i === index ? 'w-8 bg-sprout' : 'w-1.5 bg-mist/25'}`}
               />
